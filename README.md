@@ -7,24 +7,33 @@
 Mitä etuja on palvelulla, jota käytetään wepissä selaimella, jonka koodi ajetaan palvelimella ja taustalla on tietokanta?
 Eritellään palvelun ominaisuuksista hyviä ja huonoja puolia.
 ### Weppiselain:
- + Helposti saatavilla kaikille käyttäjille.
- + Vuokraus halpaa & skaalaatuvaa pilvipalvelimien avulla.
- + Laajat vaihtoehdot miten toteuttaa sivusto (Html/css tai React-app yms. kirjasto)
- - Mahdolliset turvallisuus riskit wepissä. (vs. paikallisesti toimiva ohjelmisto)
- - Vaikea taata yhteensopivuus kaikilla mahdollisilla selaimilla -> kehitys usein keskittyy suosituimpiin selaimiin.
+Hyvää:
+ > - Helposti saatavilla kaikille käyttäjille.
+ > - Vuokraus halpaa & skaalaatuvaa pilvipalvelimien avulla.
+ > - Laajat vaihtoehdot miten toteuttaa sivusto (Html/css tai React-app yms. kirjasto)
+ 
+ Huonoa:
+ > - Mahdolliset turvallisuus riskit wepissä. (vs. paikallisesti toimiva ohjelmisto)
+ > - Vaikea taata yhteensopivuus kaikilla mahdollisilla selaimilla -> kehitys usein keskittyy suosituimpiin selaimiin.
 ### Koodipalvelimella:
- + Webbi käyttäjä ei tiedä, mitä palvelimella tapahtuu esim html virhekoodit ei kerro koko totuutta käyttäjälle.
- - Suorituspaine palvelimella vs käyttäjäkohtaisesti suorittaminen selaimella
+Hyvää:
+ > - Webbi käyttäjä ei tiedä, mitä palvelimella tapahtuu esim html virhekoodit ei kerro koko totuutta käyttäjälle.
+ 
+ Huonoa:
+ > - Suorituspaine palvelimella vs käyttäjäkohtaisesti suorittaminen selaimella
 ### Tietokanta:
- + Säästää ohjelmoijan työtä: valmiit säännöt tietojen käsittelylle.
- + Mahdollistaa useamman käyttäjän samanaikaisesti.
- + Virhekäsittely (Mitä tapahtuu, jos tiedon eheys on uhattuna)
- + Standardi käsittely kieli 
- + Ei sidottuna tiettyyn ohjelmointi kieleen
- - Monimutkainen
- - Saattaaa olla kallis ratkaisu.
- - Ylläpito
- - Ohjelmistoissa on jotain pieniä eroja esimerkiksi: Päivämäärät, vaikka SQL usein toimii ristiin eri tietokantojen välillä.
+Hyvää:
+ > - Säästää ohjelmoijan työtä: valmiit säännöt tietojen käsittelylle.
+ > - Mahdollistaa useamman käyttäjän samanaikaisesti.
+ > - Virhekäsittely (Mitä tapahtuu, jos tiedon eheys on uhattuna)
+ > - Standardi käsittely kieli 
+ > - Ei sidottuna tiettyyn ohjelmointi kieleen
+ 
+ Huonoa:
+ > - Monimutkainen
+ > - Saattaaa olla kallis ratkaisu.
+ > - Ylläpito
+ > - Ohjelmistoissa on jotain pieniä eroja esimerkiksi: Päivämäärät, vaikka SQL usein toimii ristiin eri tietokantojen välillä.
  
 ## a)
 
