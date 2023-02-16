@@ -33,7 +33,7 @@ Hyvää:
  > - Monimutkainen
  > - Saattaaa olla kallis ratkaisu.
  > - Ylläpito
- > - Ohjelmistoissa on jotain pieniä eroja esimerkiksi: Päivämäärät, vaikka SQL usein toimii ristiin eri tietokantojen välillä.
+ > - Ohjelmistoissa on jotain pieniä eroja esimerkiksi: päivämäärät.
  
 ## a)
 Näin asennat PostgresSQL ohjelmiston linux koneellesi. Aloita ajamalla komennot komentokehoitteessa:
