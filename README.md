@@ -69,7 +69,7 @@ Luodaan hieman monimutkaisempi tietokanta, jossa kokeilemme CRUD toiminnallisuud
     CREATE TABLE courses(course_id SERIAL PRIMARY KEY, name VARCHAR(30));
     CREATE TABLE gradesi(course_id INT, student_id INT, grade CHAR(1), PRIMARY KEY(course_id , student_id), CONSTRAINT fk_student FOREIGN KEY(student_id) REFERENCES students(student_id), CONSTRAINT fk_course FOREIGN KEY(course_id) REFERENCES courses(course_id));
     
-Grades taulu on kirjoitettu gradesi, koska pitkän komennon kirjoittamisessa helposti tulee virhe jos toinen, niin unohtuneen grade attribuutin takia jouduin tekemään uuden taulun hieman eri nimellä.
+Grades taulu on kirjoitettu gradesi, koska pitkän komennon kirjoittamisessa helposti tapahtuu virheitä. Unohtuneen grade attribuutin takia tein uuden taulun hieman eri nimellä.
     
 ![monimutkaisempi_taulukko](https://user-images.githubusercontent.com/112503770/219339453-b4d982b2-199a-403b-980e-3af9b92a2937.png)
 
