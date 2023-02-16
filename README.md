@@ -6,16 +6,16 @@
 ## x)
 Mitä etuja on palvelulla, jota käytetään wepissä selaimella, jonka koodi ajetaan palvelimella ja taustalla on tietokanta?
 Eritellään palvelun ominaisuuksista hyviä ja huonoja puolia.
-Weppiselain:
+### Weppiselain:
  + Helposti saatavilla kaikille käyttäjille.
  + Vuokraus halpaa & skaalaatuvaa pilvipalvelimien avulla.
  + Laajat vaihtoehdot miten toteuttaa sivusto (Html/css tai React-app yms. kirjasto)
  - Mahdolliset turvallisuus riskit wepissä. (vs. paikallisesti toimiva ohjelmisto)
  - Vaikea taata yhteensopivuus kaikilla mahdollisilla selaimilla -> kehitys usein keskittyy suosituimpiin selaimiin.
-Koodipalvelimella:
+### Koodipalvelimella:
  + Webbi käyttäjä ei tiedä, mitä palvelimella tapahtuu esim html virhekoodit ei kerro koko totuutta käyttäjälle.
  - Suorituspaine palvelimella vs käyttäjäkohtaisesti suorittaminen selaimella
-Tietokanta:
+### Tietokanta:
  + Säästää ohjelmoijan työtä: valmiit säännöt tietojen käsittelylle.
  + Mahdollistaa useamman käyttäjän samanaikaisesti.
  + Virhekäsittely (Mitä tapahtuu, jos tiedon eheys on uhattuna)
